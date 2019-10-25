@@ -1,0 +1,6 @@
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.csprojAssemblyReference.cache
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.csproj.CoreCompileInputs.cache
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.RazorAssemblyInfo.cache
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.RazorAssemblyInfo.cs
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.AssemblyInfoInputs.cache
+D:\fai\AuthServerApi\obj\Debug\netcoreapp2.2\AuthServerApi.AssemblyInfo.cs
