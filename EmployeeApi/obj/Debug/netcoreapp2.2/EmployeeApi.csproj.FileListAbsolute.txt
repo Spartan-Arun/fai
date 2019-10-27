@@ -1,0 +1,16 @@
+e:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.csprojAssemblyReference.cache
+e:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.RazorAssemblyInfo.cache
+e:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.RazorAssemblyInfo.cs
+e:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.AssemblyInfoInputs.cache
+e:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.AssemblyInfo.cs
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\appsettings.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\EmployeeApi.deps.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\EmployeeApi.runtimeconfig.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\EmployeeApi.runtimeconfig.dev.json
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\EmployeeApi.dll
+E:\fai\EmployeeApi\bin\Debug\netcoreapp2.2\EmployeeApi.pdb
+E:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.RazorTargetAssemblyInfo.cache
+E:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.dll
+E:\fai\EmployeeApi\obj\Debug\netcoreapp2.2\EmployeeApi.pdb

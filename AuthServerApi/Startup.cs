@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using AuthserverAPi.data;
+using Microsoft.OpenApi.Models;
 namespace AuthserverAPi
 {
     public class Startup
@@ -29,6 +30,10 @@ namespace AuthserverAPi
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContextPool<AppDBContext>(x=>x.UseSqlite(Configuration.GetConnectionString("DBConnection")));
             services.AddScoped<ILoginRepository,LoginRepository>();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Auth API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +51,11 @@ namespace AuthserverAPi
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Auth API V1");
+            });
             app.UseMvc();
         }
     }

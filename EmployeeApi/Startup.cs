@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 namespace EmployeeAPI
 {
     public class Startup
@@ -42,6 +43,10 @@ namespace EmployeeAPI
                         }
                     );
             services.AddAuthorization(x=>x.AddPolicy("Admin",policy=>policy.RequireClaim("Admin")));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Employee API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +64,12 @@ namespace EmployeeAPI
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Employee API V1");
+            });
+
             app.UseMvc();
         }
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fai\\EmployeeApi\\EmployeeApi.csproj": {}
+    "E:\\fai\\EmployeeApi\\EmployeeApi.csproj": {}
   },
   "projects": {
-    "D:\\fai\\EmployeeApi\\EmployeeApi.csproj": {
+    "E:\\fai\\EmployeeApi\\EmployeeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fai\\EmployeeApi\\EmployeeApi.csproj",
+        "projectUniqueName": "E:\\fai\\EmployeeApi\\EmployeeApi.csproj",
         "projectName": "EmployeeApi",
-        "projectPath": "D:\\fai\\EmployeeApi\\EmployeeApi.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\fai\\EmployeeApi\\obj\\",
+        "projectPath": "E:\\fai\\EmployeeApi\\EmployeeApi.csproj",
+        "packagesPath": "C:\\Users\\ARUN\\.nuget\\packages\\",
+        "outputPath": "E:\\fai\\EmployeeApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ARUN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -55,13 +55,23 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

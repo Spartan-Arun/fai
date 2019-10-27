@@ -48,7 +48,7 @@ namespace AuthserverAPi.Controllers
                 
 
                 //return token
-                return Ok(new JwtSecurityTokenHandler().WriteToken(jwtToken));
+                return Ok(new{ token= new JwtSecurityTokenHandler().WriteToken(jwtToken),role=Role});
                 }
                 else{
                     return BadRequest("user id / password in-correct");
